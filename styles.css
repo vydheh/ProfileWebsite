@@ -44,7 +44,7 @@ nav ul li a:before{
 
 nav ul li a:hover::before{
     transform: scaleX(1);
-    
+    transform-origin : left;
 }
 header {
   width: 100%;
@@ -487,4 +487,13 @@ padding: 5px;
     font-size: 20px;
     background-color: white;
     
+}
+a:-webkit-any-link {
+    
+    cursor: pointer;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
 }
